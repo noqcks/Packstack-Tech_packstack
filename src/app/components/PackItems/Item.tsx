@@ -68,7 +68,7 @@ const Item: React.FC<ItemProps> = ({ item, removeItem, updateItem, index }) => {
                     style={{ padding: "8px", textAlign: "center" }}
                   >
                     <Button
-                      type="ghost"
+                      type="text"
                       className="ant-btn-icon-only"
                       onClick={() => updateItem(item.id, "worn", !worn)}
                     >
