@@ -210,7 +210,7 @@ export const EditItem: FC<Props> = ({ onCancel, visible, onClose, record }) => {
                     placement="bottom"
                     onConfirm={handleDelete}
                   >
-                    <Button type="ghost" danger>
+                    <Button type="default" danger>
                       Delete
                     </Button>
                   </Popconfirm>
