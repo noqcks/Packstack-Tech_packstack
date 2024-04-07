@@ -14,7 +14,7 @@ export const alertSuccess = (props: NotificationProps) => {
 };
 
 export const alertWarn = (props: NotificationProps) => {
-    notification.warn({
+    notification.warning({
         message: props.message,
         description: props.description
     });
